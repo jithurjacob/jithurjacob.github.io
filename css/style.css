@@ -28,8 +28,8 @@ body {
   /*font-family: 'Karla', sans-serif;*/
   font-family: 'Lustria', serif;
   font-family: 'Raleway', sans-serif;
-  font-family: 'Roboto', sans-serif;
-  font-family: 'Montserrat', sans-serif;
+  /*font-family: 'Roboto', sans-serif;*/
+  /*font-family: 'Montserrat', sans-serif;*/
   font-size: 7vw;
   font-weight: 600;
   line-height: 20px;
@@ -69,8 +69,8 @@ p{
   margin-bottom: 0px;
   color:white;
   font-family: 'Raleway', sans-serif;
-  font-family: 'Roboto', sans-serif;
-  font-family: 'Montserrat', sans-serif;
+  /*font-family: 'Roboto', sans-serif;*/
+  /*font-family: 'Montserrat', sans-serif;*/
 }
 .icons{
   display:inline-block;
@@ -79,7 +79,7 @@ p{
   margin:0;
 
 }
-.fb, .lin, .git, .twit, .mail, .res{
+.fb, .lin, .git, .twit, .mail, .fcc, .res{
   color:#32CD32;
 }
 
@@ -129,6 +129,9 @@ p{
   color:white;
 }
 .ico:hover .git{
+  color:white;
+}
+.ico:hover .fcc{
   color:white;
 }
 .ico:hover .mail{
@@ -214,4 +217,8 @@ p{
     padding:0px !important;
 
   }
+}
+
+.fcc{
+      margin-left: -5px;
 }
